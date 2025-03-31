@@ -1,3 +1,21 @@
+# Data Models
+
+
+## src/fastapi_template/data_models/__init__.py
+
+data models package initialization.
+
+```python
+from .auth_models import TokenInfo, UserAndTokenInfo, AccessTokenData, AppInfoData, UserInfoData
+
+```
+
+
+## src/fastapi_template/data_models/auth_models.py
+
+Pydantic models for authentication.
+
+```python
 from typing import Optional, List
 from pydantic import BaseModel, Field
 
@@ -214,4 +232,7 @@ class UserAndTokenInfo(TokenInfo):
         if self.app_data:
             return self.app_data.service
         raise ValueError("both user_data and app_data cannot be null")
+
+
+```
 

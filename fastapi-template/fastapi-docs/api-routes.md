@@ -1,3 +1,23 @@
+# API Routes
+
+
+## src/fastapi_template/routers/__init__.py
+
+Router package initialization.
+
+```python
+from .api import api_router
+
+# convienence method to get all routers
+ROUTER_LIST = [api_router]
+
+```
+
+## src/fastapi_template/routers/api.py
+
+API route definitions.
+
+```python
 from fastapi import APIRouter, Depends, HTTPException, Request, Depends
 from typing import List, Annotated
 from pydantic import BaseModel
@@ -36,3 +56,6 @@ async def get_token_info(token_info:Annotated[UserAndTokenInfo,Depends(get_tid_a
     * user profile or app name depending on the token
     """
     return token_info
+
+```
+

@@ -1,3 +1,12 @@
+# Environment Template Generator
+
+Documentation for the tool that generates environment templates.
+
+## src/fastapi_template/gen_env_template.py
+
+generates a template .env file for the project.
+
+```python
 import argparse
 from .settings import Settings
 
@@ -58,3 +67,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```

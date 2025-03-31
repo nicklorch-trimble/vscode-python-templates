@@ -1,3 +1,8 @@
+# Application Factory (create_app.py)
+
+Factory function to create and configure the FastAPI application.
+
+```python
 import logging
 from contextlib import asynccontextmanager
 from typing import Annotated
@@ -100,3 +105,5 @@ def create_app() -> FastAPI:
         return {"hello":"world"}
 
     return app
+
+```

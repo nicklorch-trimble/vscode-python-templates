@@ -1,3 +1,32 @@
+# VS Code Configuration
+
+Documentation for editor and debug settings.
+
+## .vscode/launch.json
+
+VS Code debug configurations for the project.
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: FastApiServer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/bin/fastapi-template",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
+```
+
+## .vscode/settings.json
+
+VS Code editor settings for the project.
+
+```json
 {
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.activateEnvironment": true,
@@ -35,3 +64,4 @@
         "editor.formatOnType": false
     }
 }
+```

@@ -1,3 +1,12 @@
+# Package Initialization
+
+Documentation for common utility functions in the package __init__.py file.
+
+## src/fastapi_template/__init__.py
+
+Common utitlity functions and package initialization.
+
+```python
 from functools import lru_cache
 import pkg_resources
 
@@ -58,3 +67,5 @@ def get_my_package_name() -> str:
     """
     pkg_name = pkg_resources.get_distribution(__name__).project_name
     return f"{pkg_name}".replace('_','-')
+
+```

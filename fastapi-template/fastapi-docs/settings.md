@@ -1,3 +1,9 @@
+# Application Settings
+
+## src/fastapi_template/settings.py
+Application settings using Pydantic settings management.
+
+```python
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -16,3 +22,5 @@ class Settings(BaseSettings):
         env_file=(".env", ".env.dev", ".env.prod")
     )
 
+
+```

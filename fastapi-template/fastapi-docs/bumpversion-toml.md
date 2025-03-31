@@ -1,3 +1,8 @@
+# Version Management (.bumpversion.toml)
+
+Documentation for the version bumping configuration.
+
+```toml
 [tool.bumpversion]
 current_version = "0.0.1"
 commit = true
@@ -16,3 +21,4 @@ message = "Version updated from {current_version} to {new_version}"
 filename = "pyproject.toml"
 search = "version = \"{current_version}\""
 replace = "version = \"{new_version}\""
+```

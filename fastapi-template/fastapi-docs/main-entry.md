@@ -1,3 +1,10 @@
+# Entry Point (main.py)
+
+## src/fastapi_template/main.py
+
+Application entry point.
+
+```python
 from pathlib import Path
 import logging
 import logging.config
@@ -57,3 +64,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+```

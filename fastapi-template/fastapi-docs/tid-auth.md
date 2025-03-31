@@ -1,3 +1,12 @@
+# Authentication Handlers
+
+Documentation for token-based authentication handlers.
+
+## src/fastapi_template/tid_auth.py
+
+Authentication handlers for token-based authentication.
+
+```python
 import logging
 from typing import Optional, Dict, Union, Callable, Any, List
 from fastapi import Request, HTTPException
@@ -277,3 +286,4 @@ class TidUserAuth(TidTokenAuth):
 
 
         return retval
+```
