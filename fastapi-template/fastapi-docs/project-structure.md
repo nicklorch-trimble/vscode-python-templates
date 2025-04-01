@@ -1,6 +1,6 @@
 # Project Structure
 
-The FastAPI template project follows a well-organized structure to separate concerns and improve maintainability.
+The fastapi template project follows a well-organized structure to separate concerns and improve maintainability.
 
 ```
 fastapi-template

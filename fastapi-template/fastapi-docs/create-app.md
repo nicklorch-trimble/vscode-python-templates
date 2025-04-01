@@ -1,6 +1,8 @@
-# Application Factory (create_app.py)
+# src/fastapi_template/create_app.py
 
 Factory function to create and configure the FastAPI application.
+
+## File Content
 
 ```python
 import logging

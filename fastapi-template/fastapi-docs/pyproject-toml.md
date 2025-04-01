@@ -25,7 +25,7 @@ authors = [
 maintainers = [
   { name = "Nick Lorch", email = "nick_lorch@trimble.com" },
 ]
-description = "FastAPI template"
+description = "fastapi template"
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3.10",

@@ -1,6 +1,6 @@
-# FastAPI Project Template Documentation
+# fastapi Project Template Documentation
 
-This document describes the structure and components of the FastAPI template project. This template follows best practices for creating FastAPI applications with proper structure, authentication, environment configuration, and development tools.
+This document describes the structure and components of the fastapi template project. This template follows best practices for creating fastapi applications with proper structure, authentication, environment configuration, and development tools.
 
 ## Project Structure
 

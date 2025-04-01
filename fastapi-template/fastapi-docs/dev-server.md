@@ -1,9 +1,5 @@
-# Development Server
-
-Documentation for development server utilities.
-
-## src/fastapi_template/dev.py
-Development server for the FastAPI application.
+# src/fastapi_template/dev.py
+Development server for the fastapi application.
 
 ```python
 from .create_app import create_app

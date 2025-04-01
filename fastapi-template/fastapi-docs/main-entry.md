@@ -1,6 +1,4 @@
-# Entry Point (main.py)
-
-## src/fastapi_template/main.py
+# src/fastapi_template/main.py
 
 Application entry point.
 
